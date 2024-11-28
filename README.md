@@ -22,7 +22,7 @@ L’obiettivo del progetto é la creazione di uno script in Python che permetta 
 
    Il grafo preconfigurato é il seguente:
 
-   <img src="/home/wanes/Desktop/university/reti_di_telecomunicazioni/configurazione.png" style="zoom: 45%;" />
+   <img src="https://raw.githubusercontent.com/Wanes01/progetto_reti/refs/heads/main/imgs/configurazione.png" style="zoom: 45%;" />
 
    Nel caso in cui si scelga di creare un grafo, lo script chiederà in input gli archi del grafo, inseribili nel formato `NomeNodo1 NomeNodo2 CostoArco`.
 
@@ -128,9 +128,9 @@ L’obiettivo del progetto é la creazione di uno script in Python che permetta 
 
 Per l'esempio prendiamo in considerazione il grafo preconfigurato nello script:
 
-<img src="/home/wanes/Desktop/university/reti_di_telecomunicazioni/configurazione.png" style="zoom:40%;" />
+<img src="https://raw.githubusercontent.com/Wanes01/progetto_reti/refs/heads/main/imgs/configurazione.png" style="zoom:40%;" />
 
 L'output delle tabelle finali dato dallo script é il seguente:
 
-| <img src="/home/wanes/Desktop/university/reti_di_telecomunicazioni/ABF.png" style="zoom:38.5%;" /> | <img src="/home/wanes/Desktop/university/reti_di_telecomunicazioni/EDC.png" style="zoom:38.5%;" /> |
+| <img src="https://raw.githubusercontent.com/Wanes01/progetto_reti/refs/heads/main/imgs/ABF.png" style="zoom:38.5%;" /> | <img src="https://raw.githubusercontent.com/Wanes01/progetto_reti/refs/heads/main/imgs/ABF.png" style="zoom:38.5%;" /> |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
