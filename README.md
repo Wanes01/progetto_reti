@@ -28,7 +28,7 @@ L’obiettivo del progetto é la creazione di uno script in Python che permetta 
 
    > I nomi dei nodi sono case sensitive, quindi il nodo `a` ed il nodo `A` sono contati come nodi separati.
    >
-   > Il grafo non é orientato: l'aggiunta di un arco N1$\rightarrow$N2 presuppone che esista anche il senso di percorrenza N2$\rightarrow$N1
+   > Il grafo non é orientato: l'aggiunta di un arco N1 $\rightarrow$ N2 presuppone che esista anche il senso di percorrenza N2 $\rightarrow$ N1
 
    Una volta selezionato il grafo verrà chiesto all'utente se egli vuole vedere le tabelle di routing dei nodi ad ogni loro aggiornamento. Nel caso venga inserito `0`, per ogni nodo `X` verrà visualizzato il distance vector inviato ai nodi vicini e il risultato dell'aggiornamento delle tabelle di routing di quest'ultimi. Se viene inserito `1` vengono visualizzate solo le tabelle di routing finali dopo la convergenza.
 
@@ -97,7 +97,7 @@ L’obiettivo del progetto é la creazione di uno script in Python che permetta 
            return self.edges[src][:]
    ```
 
-   La classe `Graph` modella un grafo non orientato in cui ogni nodo viene associato ad un `DistanceVector`. Per ogni nodo viene mantenuta anche l'informazione degli archi che partono da quest'ultimo in una lista contenente delle coppie `(destination, edge_weight)`. Rispettivamente, gli archi vengono associati al nome del nodo in una mappa `edges` e i distance vector in una mappa `vectors`. Il metodo `add_edge` é il fulcro della classe: ad ogni chiamata vengono inseriti i nodi `src` e `dst` (se non già presenti) e creato il relativo arco a doppia percorrenza (viene creato sia `src`$\rightarrow$`dst` sia `dst`$\rightarrow$`src`).
+   La classe `Graph` modella un grafo non orientato in cui ogni nodo viene associato ad un `DistanceVector`. Per ogni nodo viene mantenuta anche l'informazione degli archi che partono da quest'ultimo in una lista contenente delle coppie `(destination, edge_weight)`. Rispettivamente, gli archi vengono associati al nome del nodo in una mappa `edges` e i distance vector in una mappa `vectors`. Il metodo `add_edge` é il fulcro della classe: ad ogni chiamata vengono inseriti i nodi `src` e `dst` (se non già presenti) e creato il relativo arco a doppia percorrenza (viene creato sia `src` $\rightarrow$ `dst` sia `dst `$\rightarrow$ `src`).
 
    ---
 
