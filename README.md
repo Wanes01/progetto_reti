@@ -132,5 +132,5 @@ Per l'esempio prendiamo in considerazione il grafo preconfigurato nello script:
 
 L'output delle tabelle finali dato dallo script é il seguente:
 
-| <img src="https://raw.githubusercontent.com/Wanes01/progetto_reti/refs/heads/main/imgs/ABF.png" style="zoom:38.5%;" /> | <img src="https://raw.githubusercontent.com/Wanes01/progetto_reti/refs/heads/main/imgs/ABF.png" style="zoom:38.5%;" /> |
+| <img src="https://raw.githubusercontent.com/Wanes01/progetto_reti/refs/heads/main/imgs/ABF.png" style="zoom:38.5%;" /> | <img src="https://raw.githubusercontent.com/Wanes01/progetto_reti/refs/heads/main/imgs/EDC.png" style="zoom:38.5%;" /> |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
